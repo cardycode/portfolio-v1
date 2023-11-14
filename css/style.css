@@ -57,18 +57,6 @@ footer a {
   font-family: var(--header-footer-font);
 }
 
-.exampleA {
-  font-family: "Didact Gothic", sans-serif;
-}
-
-.exampleB {
-  font-family: "Nunito Sans", sans-serif;
-}
-
-.exampleC {
-  font-family: "Roboto", sans-serif;
-}
-
 /* font-family: 'Didact Gothic', sans-serif;
 font-family: 'Nunito Sans', sans-serif;
 font-family: 'Roboto', sans-serif;  */
