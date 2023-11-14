@@ -1,19 +1,61 @@
+/* f2ad47 
+748E63
+177f90
+e9ac7f
+b6472b
+11616d  */
+
 body {
-  background-color: red;
-}
-.font1 {
-    font-family: 'Didact Gothic', sans-serif ;
+  background: #748e63;
 }
 
-font2 {
-  font-family: 'Nunito Sans', sans-serif;
-  
+header {
+  text-align: center;
+  font-size: 30px;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 500;
 }
 
-font3 {
-    font-family: 'Roboto', sans-serif;  
+header a {
+  text-decoration: none;
+  color: #000000;
+}
+
+h1 {
+  text-align: justify;
+  font-family: "Didact Gothic", sans-serif;
+  font-weight: 800;
+  margin: 40px auto;
+}
+p {
+  font-family: "Didact Gothic", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  text-align: justify;
+}
+
+.intro-link {
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  color: #b6472b;
+}
+
+footer a {
+  color: #11616d;
+}
+
+.exampleA {
+  font-family: "Didact Gothic", sans-serif;
+}
+
+.exampleB {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.exampleC {
+  font-family: "Roboto", sans-serif;
 }
 
 /* font-family: 'Didact Gothic', sans-serif;
 font-family: 'Nunito Sans', sans-serif;
-font-family: 'Roboto', sans-serif;  /*
+font-family: 'Roboto', sans-serif;  */
