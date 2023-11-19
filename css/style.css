@@ -43,6 +43,11 @@ h1 {
   font-size: 30px;
   font-weight: 400;
   margin: 0 auto;
+  text-align: right;
+}
+
+.work-paragraph {
+  margin: 20px 0;
 }
 
 .intro-link {
@@ -51,6 +56,19 @@ h1 {
   font-family: var(--link-text-font-family);
   color: var(--secondary-color);
   text-transform: uppercase;
+  position: relative;
+  text-align: justify;
+}
+
+.work-link {
+  top: 55px;
+}
+
+.contact-link {
+  top: 35px;
+}
+
+.about-link {
 }
 
 footer a {
@@ -66,24 +84,36 @@ footer a {
   .intro-link {
     text-align: center;
   }
+  .work-link,
+  .contact-link {
+    top: 0px;
+  }
+  .main-page {
+    text-align: justify;
+  }
+
+  .work-paragraph {
+    margin: 0;
+  }
 }
 
-@media (max-width: 768px) {
-  h1 {
-    max-width: 55%;
-  }
-  .intro-link {
-    text-align: center;
-    font-size: 55px;
-  }
-}
-
-@media (max-width: 370px) {
+@media (max-width: 539px) {
   h1 {
     max-width: 75%;
   }
   .intro-link {
     font-size: 40px;
+  }
+  .work-link,
+  .contact-link {
+    top: 0px;
+  }
+  .main-page {
+    text-align: justify;
+  }
+
+  .work-paragraph {
+    margin: 0;
   }
 }
 
