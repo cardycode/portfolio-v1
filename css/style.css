@@ -31,22 +31,24 @@ header a {
 
 h1 {
   text-align: justify;
-  max-width: 55%;
+  max-width: 45%;
   font-family: var(--default-font-family);
   font-weight: 800;
   margin: 0 auto;
+  background: var(--secondary-color);
 }
-.main-page p {
+
+.main-page {
   font-family: var(--default-font-family);
   font-size: 30px;
   font-weight: 400;
   text-align: justify;
-  max-width: 55%;
   margin: 0 auto;
 }
 
 .intro-link {
   font-weight: 500;
+  font-size: 80px;
   font-family: var(--link-text-font-family);
   color: var(--secondary-color);
   text-transform: uppercase;
@@ -55,6 +57,13 @@ h1 {
 footer a {
   color: var(--tertiary-color);
   font-family: var(--header-footer-font);
+  font-size: 25px;
+}
+
+@media (max-width: 768) {
+  h1 {
+    max-width: 85%;
+  }
 }
 
 /* font-family: 'Didact Gothic', sans-serif;
