@@ -64,6 +64,9 @@ footer a {
   h1 {
     max-width: 85%;
   }
+  .intro-link {
+    text-align: center;
+  }
 }
 
 /* font-family: 'Didact Gothic', sans-serif;
