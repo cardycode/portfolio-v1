@@ -14,7 +14,6 @@ b6472b
 }
 
 body {
-  background: var(--primary-color);
 }
 
 header {
@@ -40,10 +39,12 @@ h1 {
 
 .main-page {
   font-family: var(--default-font-family);
+  background: var(--primary-color);
   font-size: 30px;
   font-weight: 400;
   margin: 0 auto;
   text-align: right;
+  padding: 0 0 40px;
 }
 
 .work-paragraph {
@@ -69,6 +70,12 @@ h1 {
 }
 
 .about-link {
+}
+
+footer {
+  background: var(--primary-color);
+  border-top: 2px solid var(--tertiary-color);
+  padding: 20px 10px 0px;
 }
 
 footer a {
