@@ -13,9 +13,6 @@ b6472b
   --header-footer-font: "Nunito Sans", sans-serif;
 }
 
-body {
-}
-
 header {
   text-align: center;
   font-size: 30px;
@@ -28,7 +25,15 @@ header a {
   color: #000000;
 }
 
-h1 {
+h2 {
+  color: var(--secondary-color);
+}
+
+img {
+  max-width: 100%;
+}
+
+.main-page h1 {
   text-align: justify;
   max-width: 34%;
   font-family: var(--default-font-family);
@@ -44,11 +49,14 @@ h1 {
   font-weight: 400;
   margin: 0 auto;
   text-align: right;
-  padding: 0 0 40px;
 }
 
 .work-paragraph {
   margin: 20px 0;
+}
+
+.contact-paragraph {
+  padding: 0 0 40px;
 }
 
 .intro-link {
@@ -72,10 +80,45 @@ h1 {
 .about-link {
 }
 
+.about-page h1 {
+  font-family: var(--link-text-font-family);
+  color: var(--secondary-color);
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 85px;
+}
+
+.about-page {
+  background: #f5e7d3;
+  font-family: var(--default-font-family);
+  font-size: 30px;
+  font-weight: 400;
+  margin: 0 auto;
+  text-align: left;
+  padding: 0 0 40px;
+}
+
+.certificate-card {
+  display: flex;
+  margin: 5px;
+  height: 120px;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--secondary-color);
+  border-radius: 15px;
+}
+
+.certificate-card a {
+  color: #f5e7d3;
+  text-decoration: none;
+  font-size: 25px;
+}
+
 footer {
-  background: var(--primary-color);
   border-top: 2px solid var(--tertiary-color);
   padding: 20px 10px 0px;
+  font-family: var(--header-footer-font);
+  font-size: 18px;
 }
 
 footer a {
