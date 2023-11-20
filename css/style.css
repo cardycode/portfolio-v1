@@ -78,21 +78,18 @@ img {
   top: 35px;
 }
 
-.about-link {
-}
-
 .about-page h1 {
   font-family: var(--link-text-font-family);
   color: var(--secondary-color);
   text-transform: uppercase;
   font-weight: 500;
-  font-size: 85px;
+  font-size: 80px;
 }
 
 .about-page {
   background: #f5e7d3;
   font-family: var(--default-font-family);
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 400;
   margin: 0 auto;
   text-align: left;
@@ -147,6 +144,10 @@ footer a {
     margin: 0;
   }
 
+  .about-page h1 {
+    font-size: 40px;
+  }
+
   .certificate-card {
     height: 110px;
   }
@@ -169,6 +170,10 @@ footer a {
 
   .work-paragraph {
     margin: 0;
+  }
+
+  .about-page h1 {
+    font-size: 30px;
   }
 }
 
