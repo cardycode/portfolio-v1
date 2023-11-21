@@ -78,7 +78,7 @@ img {
   top: 35px;
 }
 
-.other-page h1 {
+.content h1 {
   font-family: var(--link-text-font-family);
   color: var(--secondary-color);
   text-transform: uppercase;
@@ -86,7 +86,7 @@ img {
   font-size: 80px;
 }
 
-.other-page {
+.content {
   background: #f5e7d3;
   font-family: var(--default-font-family);
   font-size: 25px;
@@ -149,7 +149,7 @@ footer a {
     margin: 0;
   }
 
-  .other-page h1 {
+  .content h1 {
     font-size: 40px;
   }
 
@@ -177,7 +177,7 @@ footer a {
     margin: 0;
   }
 
-  .other-page h1 {
+  .content h1 {
     font-size: 30px;
   }
 }
