@@ -79,6 +79,26 @@ img {
   top: 35px;
 }
 
+nav li {
+  list-style: none;
+  padding: 0 0 10px;
+  font-size: 20px;
+  font-family: var(--header-footer-font);
+  font-weight: 500;
+  display: inline;
+}
+
+nav li a {
+  text-decoration: none;
+  color: #000000;
+  transition: all 100ms ease-in-out;
+}
+
+nav li a:hover {
+  color: var(--secondary-color);
+  font-weight: 900;
+}
+
 .content h1 {
   font-family: var(--link-text-font-family);
   color: var(--secondary-color);
