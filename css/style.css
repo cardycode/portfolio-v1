@@ -64,6 +64,11 @@ img {
 .intro-link {
   position: relative;
   text-align: justify;
+  transition: all 50ms ease-in-out;
+}
+
+.intro-link:hover {
+  transform: scaleY(1.5);
 }
 
 .intro-link a {
@@ -87,8 +92,8 @@ img {
 
 nav li {
   list-style: none;
-  padding: 0 10px 10px;
-  font-size: 20px;
+  padding: 0 5px;
+  font-size: 16px;
   font-family: var(--header-footer-font);
   font-weight: 400;
   display: inline;
@@ -105,10 +110,6 @@ nav li.active a {
   color: var(--secondary-color);
   font-weight: 900;
   text-decoration: overline;
-}
-
-.nav-setup {
-  margin: 0;
 }
 
 .content h1 {
