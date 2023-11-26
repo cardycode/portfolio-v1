@@ -62,6 +62,11 @@ img {
 }
 
 .intro-link {
+  position: relative;
+  text-align: justify;
+}
+
+.intro-link a {
   font-weight: 500;
   font-size: 85px;
   font-family: var(--link-text-font-family);
@@ -69,6 +74,7 @@ img {
   text-transform: uppercase;
   position: relative;
   text-align: justify;
+  text-decoration: none;
 }
 
 .work-link {
@@ -101,6 +107,10 @@ nav li.active a {
   text-decoration: overline;
 }
 
+.nav-setup {
+  margin: 0;
+}
+
 .content h1 {
   font-family: var(--link-text-font-family);
   color: var(--secondary-color);
@@ -122,7 +132,7 @@ nav li.active a {
 .certificate-card {
   display: flex;
   margin: 5px;
-  height: 120px;
+  height: 130px;
   justify-content: center;
   align-items: center;
   background-color: var(--secondary-color);
@@ -132,7 +142,7 @@ nav li.active a {
 .certificate-card a {
   color: var(--content-background);
   text-decoration: none;
-  font-size: 23px;
+  font-size: 20px;
 }
 
 .card {
