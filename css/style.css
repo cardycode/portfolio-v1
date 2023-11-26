@@ -81,10 +81,10 @@ img {
 
 nav li {
   list-style: none;
-  padding: 0 0 10px;
+  padding: 0 10px 10px;
   font-size: 20px;
   font-family: var(--header-footer-font);
-  font-weight: 500;
+  font-weight: 400;
   display: inline;
 }
 
@@ -94,9 +94,11 @@ nav li a {
   transition: all 100ms ease-in-out;
 }
 
-nav li a:hover {
+nav li a:hover,
+nav li.active a {
   color: var(--secondary-color);
   font-weight: 900;
+  text-decoration: overline;
 }
 
 .content h1 {
