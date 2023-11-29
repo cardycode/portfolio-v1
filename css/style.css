@@ -177,6 +177,12 @@ footer a {
   color: var(--tertiary-color);
   font-family: var(--header-footer-font);
   font-size: 25px;
+  transition: all 100ms ease-in-out;
+}
+
+footer a:hover {
+  opacity: 50%;
+  color: var(--secondary-color);
 }
 
 @media (max-width: 990px) {
