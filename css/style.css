@@ -19,6 +19,7 @@ header {
   font-size: 30px;
   font-family: var(--header-footer-font);
   font-weight: 500;
+  background: var(--content-background);
 }
 
 header a {
@@ -35,6 +36,10 @@ img {
   max-width: 100%;
 }
 
+.main-page header {
+  background: var(--primary-color);
+}
+
 .main-page h1 {
   text-align: justify;
   max-width: 34%;
@@ -48,7 +53,6 @@ img {
   font-family: var(--default-font-family);
   background: var(--primary-color);
   font-size: 30px;
-  font-weight: 400;
   margin: 0 auto;
   text-align: right;
 }
@@ -72,13 +76,11 @@ img {
 }
 
 .intro-link a {
-  font-weight: 500;
   font-size: 85px;
   font-family: var(--link-text-font-family);
   color: var(--secondary-color);
   text-transform: uppercase;
   position: relative;
-  text-align: justify;
   text-decoration: none;
 }
 
@@ -116,7 +118,6 @@ nav li.active a {
   font-family: var(--link-text-font-family);
   color: var(--secondary-color);
   text-transform: uppercase;
-  font-weight: 500;
   font-size: 80px;
 }
 
@@ -124,7 +125,6 @@ nav li.active a {
   background: var(--content-background);
   font-family: var(--default-font-family);
   font-size: 25px;
-  font-weight: 400;
   margin: 0 auto;
   text-align: left;
   padding: 0 0 40px;
@@ -168,7 +168,7 @@ nav li.active a {
 
 footer {
   border-top: 2px solid var(--tertiary-color);
-  padding: 20px 10px 0px;
+  padding: 20px 10px;
   font-family: var(--header-footer-font);
   font-size: 18px;
   text-align: left;
@@ -203,11 +203,17 @@ footer a:hover {
   .intro-link {
     text-align: center;
   }
+
+  .intro-link a {
+    font-size: 70px;
+  }
+
   .work-link,
   .contact-link {
     top: 0px;
   }
-  .main-page {
+
+  .intro-p {
     text-align: justify;
   }
 
@@ -233,19 +239,8 @@ footer a:hover {
   .main-page h1 {
     max-width: 75%;
   }
-  .intro-link {
-    font-size: 40px;
-  }
-  .work-link,
-  .contact-link {
-    top: 0px;
-  }
-  .main-page {
-    text-align: justify;
-  }
-
-  .work-paragraph {
-    margin: 0;
+  .intro-link a {
+    font-size: 50px;
   }
 
   .content h1 {
