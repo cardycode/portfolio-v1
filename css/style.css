@@ -130,6 +130,11 @@ nav li.active a {
   padding: 0 0 40px;
 }
 
+img {
+  border-radius: 10px;
+  border: solid 3px var(--secondary-color);
+}
+
 .certificate-card {
   display: flex;
   margin: 5px;
