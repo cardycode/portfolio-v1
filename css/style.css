@@ -130,7 +130,7 @@ nav li.active a {
   padding: 0 0 40px;
 }
 
-img {
+.profile-picture {
   border-radius: 10px;
   border: solid 3px var(--secondary-color);
 }
